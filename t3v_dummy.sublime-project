@@ -1,0 +1,15 @@
+{
+  "folders": [
+    {
+      "name": "t3v_dummy",
+      "path": "./",
+      "folder_exclude_patterns": [
+        ".Build"
+      ],
+      "file_exclude_patterns": [
+        ".keep",
+        "composer.lock"
+      ]
+    }
+  ]
+}
