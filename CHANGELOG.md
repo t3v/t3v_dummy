@@ -7,6 +7,8 @@ Unreleased
 ----------
 
 * Updated constants and configuration
+* Updated AppVeyor configuration
+* Dropped support for PHP 5.x
 
 1.0.3
 -----
