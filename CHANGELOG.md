@@ -6,6 +6,7 @@ Notable changes will be documented in this file. The project adheres to [Semanti
 Unreleased
 ----------
 
+* Refactored TypoScript
 * Updated constants and configuration
 * Updated AppVeyor configuration
 * Dropped support for PHP 5.x
