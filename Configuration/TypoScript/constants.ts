@@ -2,6 +2,8 @@
 # | T3v Dummy Constants |
 # -----------------------
 
+# === Plugin Constants ===
+
 plugin {
   tx_t3vdummy {
     persistence {

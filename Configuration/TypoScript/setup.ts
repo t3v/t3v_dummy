@@ -2,6 +2,8 @@
 # | T3v Dummy Configuration |
 # ---------------------------
 
+# === Plugin Configuration ===
+
 plugin {
   tx_t3vdummy {
     persistence {
