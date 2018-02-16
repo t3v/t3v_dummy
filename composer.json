@@ -67,7 +67,7 @@
   },
   "scripts": {
     "post-autoload-dump": [
-      "mkdir -p .Build/Web/typo3conf/ext/",
+      "mkdir -p .build/web/typo3conf/ext/",
       "[ -L .build/web/typo3conf/ext/t3v_dummy ] || ln -snvf ../../../../. .build/web/typo3conf/ext/t3v_dummy"
     ]
   }
