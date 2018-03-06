@@ -1,10 +1,9 @@
 <?php
-defined('TYPO3_MODE') or die('Access denied.');
+defined('TYPO3_MODE') or die();
 
-call_user_func(function($namespace, $extkey) {
-  $extensionSignature = \TYPO3\CMS\Core\Utility\GeneralUtility::underscoredToUpperCamelCase($namespace . '.' . $extkey);
+// === Variables ===
 
-  // === TypoScript ===
-
-  \TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addStaticFile($extkey, 'Configuration/TypoScript', 'T3v Dummy');
-}, 't3v', $_EXTKEY);
+$namespace          = 't3v';
+$extensionKey       = $_EXTKEY;
+$extensionSignature = \TYPO3\CMS\Core\Utility\GeneralUtility::underscoredToUpperCamelCase($namespace . '.' . $extensionKey);
+$resources          = "EXT:${extensionKey}/Resources";
