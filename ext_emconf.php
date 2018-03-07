@@ -7,13 +7,13 @@ $EM_CONF[$_EXTKEY] = [
   'author_company' => 'Bitaculous - It\'s all about the bits, baby!',
   'category' => 'example',
   'state' => 'stable',
-  'version' => '2.2.1',
+  'version' => '3.0.0',
   'createDirs' => '',
   'uploadfolder' => false,
   'clearCacheOnLoad' => false,
   'constraints' => [
     'depends' => [
-      'typo3' => '7.6.0-8.7.99',
+      'typo3' => '8.7.0-9.5.99'
       't3v_core' => ''
     ],
     'conflicts' => [
