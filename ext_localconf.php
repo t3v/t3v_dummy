@@ -3,8 +3,8 @@ defined('TYPO3_MODE') or die();
 
 // === Variables ===
 
-$namespace          = 't3v';
-$extensionKey       = $_EXTKEY;
-$extensionSignature = \TYPO3\CMS\Core\Utility\GeneralUtility::underscoredToUpperCamelCase($namespace . '.' . $extensionKey);
-$configuration      = "EXT:{$extensionKey}/Configuration";
-$resources          = "EXT:{$extensionKey}/Resources";
+$namespace           = 't3v';
+$extensionKey        = $_EXTKEY;
+$extensionSignature  = \T3v\T3vCore\Utility\ExtensionUtility::extensionSignature($namespace, $extensionKey);
+$configurationFolder = \T3v\T3vCore\Utility\ExtensionUtility::configurationFolder($extensionKey);
+$resourcesFolder     = \T3v\T3vCore\Utility\ExtensionUtility::resourcesFolder($extensionKey);

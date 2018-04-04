@@ -5,5 +5,5 @@ defined('TYPO3_MODE') or die();
 
 $namespace          = 't3v';
 $extensionKey       = $_EXTKEY;
-$extensionSignature = \TYPO3\CMS\Core\Utility\GeneralUtility::underscoredToUpperCamelCase($namespace . '.' . $extensionKey);
-$resources          = "EXT:${extensionKey}/Resources";
+$extensionSignature = \T3v\T3vCore\Utility\ExtensionUtility::extensionSignature($namespace, $extensionKey);
+$resourcesFolder    = \T3v\T3vCore\Utility\ExtensionUtility::resourcesFolder($extensionKey);
