@@ -7,6 +7,7 @@ Unreleased
 ----------
 
 * Updated TypoScript
+* Cleaned up
 
 3.1.0
 -----

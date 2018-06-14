@@ -29,7 +29,7 @@ class RenderingTest extends FunctionalTestCase {
   protected $testExtensionsToLoad = ['typo3conf/ext/t3v_dummy'];
 
   /**
-   * Test if template is rendered.
+   * Tests if the template is rendered.
    *
    * @test
    */
@@ -47,8 +47,6 @@ class RenderingTest extends FunctionalTestCase {
 
   /**
    * Setup before running tests.
-   *
-   * @return void
    */
   protected function setUp() {
     parent::setUp();
