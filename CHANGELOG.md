@@ -3,6 +3,12 @@ Changelog
 
 Notable changes will be documented in this file. The project adheres to [Semantic Versioning].
 
+Unreleased
+----------
+
+* Fixed TypoScript
+* Cleaned up
+
 3.0.1
 -----
 
