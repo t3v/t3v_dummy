@@ -7,6 +7,7 @@ Unreleased
 ----------
 
 * Fixed TypoScript
+* Updated AppVeyor configuration
 * Cleaned up
 
 3.0.1
