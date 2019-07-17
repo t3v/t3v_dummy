@@ -22,7 +22,6 @@
   "minimum-stability": "dev",
   "prefer-stable": true,
   "replace": {
-    "t3v_dummy": "self.version",
     "typo3-ter/t3v_dummy": "self.version"
   },
   "repositories": [
